@@ -64,7 +64,7 @@ class DemoApp(QMainWindow):
         side_layout = QVBoxLayout()
         side_panel.setLayout(side_layout)
 
-        side_layout.addWidget(QLabel("Side Panel"))
+        side_layout.addWidget(QLabel("Lists"))
 
         side_list = QListWidget()
         side_list.addItems(self.data.keys())
