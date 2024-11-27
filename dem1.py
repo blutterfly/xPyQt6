@@ -6,6 +6,14 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QAction
 
+"""
+How It Looks
+Menu Bar: At the top with "File" and "Help" menus.
+Toolbar: Below the menu bar with "New," "Open," and "Exit" icons.
+Side Panel: On the left with a list of items.
+Main Panel: Centered, including a text area.
+Footer: A small styled section at the bottom.
+"""
 
 class DemoApp(QMainWindow):
     def __init__(self):
