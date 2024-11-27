@@ -117,9 +117,9 @@ class DemoApp(QMainWindow):
         side_panel.setFixedWidth(200)
         side_layout = QVBoxLayout()
         side_panel.setLayout(side_layout)
-        side_layout.addWidget(QLabel("Side Panel"))
+        side_layout.addWidget(QLabel("List"))
         side_list = QListWidget()
-        side_list.addItems(["Fruits", "Cars", "Students"])
+        side_list.addItems(["Fruits", "Cars", "Students", "Stocks"])
         side_layout.addWidget(side_list)
         horizontal_layout.addWidget(side_panel)
 

@@ -1,0 +1,1 @@
+data/summary/wikipedia_dowjones.csv data/summary/wikipedia_nasdaq.csv data/summary/wikipedia_sp500.csv

@@ -18,6 +18,8 @@ class DemoApp(QMainWindow):
             "Fruits": ["Apple", "Banana", "Cherry"],
             "Cars": ["Toyota", "Ford", "BMW"],
             "Students": ["Alice", "Bob", "Charlie"],
+            "Stock Indeces": ["SP500", "Nasdaq", "DowJones"]
+            
         }
 
         # Apply styles
